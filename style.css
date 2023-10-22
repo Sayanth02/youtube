@@ -1,0 +1,289 @@
+body{
+   background: black; 
+}
+/* search bar */
+.input-group {
+    width: 600px;
+    height: 40px;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 50px;
+    margin-right: 30px;
+    background-color: rgb(39, 33, 33);
+}
+
+.form-control {
+    border-radius: 50px;
+
+}
+
+.input-group-addon i {
+
+    padding: 10px 10px;
+    color: white;
+}
+
+/* -------- */
+
+
+/* nav bar */
+.nav{
+    background: black;
+}
+.nav-item {
+
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* nav first section */
+#start {
+    display: flex;
+    margin-right: 200px;
+    margin-left: 30px;
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+    object-fit: scale-down;
+    margin-right: 30px;
+}
+
+.logo img {
+
+    width: 100px;
+    margin-top: -10px;
+    object-fit: scale-down;
+}
+
+/* ---------- */
+
+
+/* nav mid section */
+#middle {
+    display: flex;
+    margin-right: 200px;
+}
+
+.mic {
+    background: rgb(39, 33, 33);
+    width: 35px;
+    height: 35px;
+    padding: 0.4rem 0.7rem;
+    border-radius: 50%;
+}
+
+.mic i {
+    color: white;
+}
+
+.mic:hover {
+    background-color: rgb(55, 51, 51);
+}
+
+/* ------------ */
+
+/* nav bar end part */
+#end {
+    display: flex;
+
+}
+
+.ic3 {
+    margin: 0 20px;
+}
+
+.ic3 i {
+    color: white;
+}
+
+/* ----------------- */
+
+
+/* --------------------------------------------------nav bar ends------------------------------------------ */
+
+/*------------------------------------------ offcanvas------------------------------------------------ */
+#offcanvas {
+
+    margin-top: 65px;
+    width: 15%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+/* list */
+.list-group-item {
+    width: 100%;
+    border: none;
+    color: white;
+    background: black;
+}
+
+.list-group-item i {
+    margin-right: 25px;
+}
+
+#l1 {
+    border-bottom: 1px solid grey;
+}
+
+#l2 {
+    border-bottom: 1px solid grey;
+}
+
+.list-group-item:hover {
+    border-radius: 10px;
+    background-color: rgb(39, 33, 33);
+}
+
+/* -----list end */
+/* offCanvas End */
+
+/* grid container */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    right: 0;
+   
+}
+
+
+
+/* column */
+
+.col-lg-4{
+    height: 300px;
+    margin-bottom: 50px;
+    
+}
+.col-lg-4 a{
+    text-decoration: none;
+}
+/* thumbnail */
+.thumbnail{
+    width: 100%;
+    height: 100%;
+    
+}
+.thumbnail img{
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    object-fit:scale-down;
+    border-radius: 15px;
+}
+/* ------------------------      */
+.caption{
+    color:white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+
+/* Responsive code */
+
+@media(max-width:600px) {
+
+    /* search bar */
+    .input-group {
+        width: 100px;
+        height: 20px;
+        margin-right: 15px;
+
+    }
+
+    .form-control {
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .input-group-addon i {
+
+        padding: 7px 5px;
+        font-size: 10px;
+    }
+
+    /* -------- */
+    .nav-item {
+
+        margin-top: 6px;
+        padding-bottom: 10px;
+    }
+
+    /* nav first section */
+    #start {
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+
+    .menu img {
+        width: 15px;
+        height: 15px;
+        margin-right: 30px;
+    }
+
+    .logo img {
+        width: 50px;
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+
+    /* ---------- */
+
+    /* nav mid section */
+    #middle {
+        margin-right: 0px;
+    }
+
+    .mic {
+        width: 20px;
+        height: 20px;
+        padding: 0.8px 6px;
+    }
+
+    .mic i {
+        font-size: 10px;
+    }
+
+    /* ------------ */
+    /* nav bar end part */
+    #end {
+        margin-left: 8px;
+    }
+
+    .ic3 {
+        margin: 0 10px;
+    }
+
+    .ic3 i {
+        font-size: 10px;
+    }
+
+    /* ----------------- */
+
+    /* offcanvas */
+    #offcanvas {
+
+        margin-top: 55px;
+        width: 50%;
+    }
+
+    .list-group-item {
+        width: 150px;
+    }
+    .list-group-item i {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    .caption{
+        color:white;
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+}
